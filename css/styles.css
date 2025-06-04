@@ -713,6 +713,10 @@ display: block;
     justify-content: flex-start;
     gap: 8px;
 }
+span.check-icon {
+    display: inline-flex;
+}
+
 .check-icon {
     width: 16px;
     height: 16px;
