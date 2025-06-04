@@ -554,15 +554,15 @@ padding: 8px 16px;
 .modal-area::placeholder {
 font-weight: 400;
 font-size: 12px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.04em;
 color: rgba(46, 47, 66, 0.4);
-
+display: block;
 }
 .modal-input-text {
     font-weight: 400;
 font-size: 12px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.04em;
 color: #8e8f99;
 display: inline-block;
@@ -592,9 +592,10 @@ transform: translateY(-50%);
 .modal-comment {
 font-weight: 400;
 font-size: 12px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.04em;
 color: #8e8f99;
+display: block;
 }
 
 
@@ -603,7 +604,7 @@ display: block;
     width: 100%;
 font-weight: 400;
 font-size: 12px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.04em;
 color: #8e8f99;
 padding-top: 16px;
@@ -616,10 +617,11 @@ border: 1px solid #404bbf;
 }
 
 .privacy-accept {
-    line-height: 1.33333;
+    line-height: 1.3;
 text-decoration: underline;
 text-decoration-skip-ink: none;
 color: #4d5ae5;
+display: block;
 }
 .modal-main {
     margin-bottom: 8px;
