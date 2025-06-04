@@ -460,6 +460,7 @@ font-size: 12px;
 line-height: 2;
 letter-spacing: 0.04em;
 padding-left: 16px;
+color: #ffffff;
 }
 .input-footer::placeholder {
     color: #ffffff;
@@ -482,6 +483,7 @@ letter-spacing: 0.04em;
 text-align: center;
 color: #fff;
 cursor: pointer;
+border: none;
 }
 .icon-send {
     margin-left: 16px;
