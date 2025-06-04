@@ -686,7 +686,7 @@ color: #8e8f99;
 padding: 0;
 gap: 8px;
 }
-input[type="checkbox"]:checked + .check-option .check-icon {
+input[type="checkbox"]:checked + .check-option .accept-icon {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
@@ -713,11 +713,11 @@ display: block;
     justify-content: flex-start;
     gap: 8px;
 }
-span.check-icon {
+span.accept-icon {
     display: inline-flex;
 }
 
-.check-icon {
+.accept-icon {
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
