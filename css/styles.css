@@ -388,6 +388,7 @@ max-width: 264px;
 }
 .footer-social {
 display: inline-block;
+margin-right: 80px;
 }
 .footer-media {
     font-weight: 500;
@@ -429,7 +430,10 @@ list-style: none;
     box-sizing: border-box;
 }
 .footer-form {
-    margin: auto;
+display: flex;
+flex-direction: column;
+gap: 16px;
+    /* margin: 0 auto; */
 }
 .form-text {
     font-weight: 500;
