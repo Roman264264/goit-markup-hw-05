@@ -409,22 +409,40 @@
         </svg>
     </button>
     <p class="model-text">Leave your contacts and we will call you back</p>
-<form class="modal-form">
-  <div class="modal-form">
+<form class="modal-form-icon">
+  
         <label for="user-name" class="modal-input-text">Name</label>
-        <input type="text" class="modal-input" name="user-name" id="user-name"/>
-  </div>
-   <div class="modal-form">
+        <div class="modal-form-div">
+        <input type="text" class="modal-input-name" name="user-name" id="user-name"/>
+  <svg class="modal-input-person" width="12" height="12">
+    <use href="./images/icons.svg#icon-person"></use>
+  </svg>
+    </div>
+   
         <label for="user-phone" class="modal-input-text">Phone</label>
+        <div class="modal-form-div">
         <input type="tel" class="modal-input" name="user-phone" id="user-phone"/>
-   </div>
-   <div class="modal-form">
+   <svg class="modal-input-icon" width="12" height="12">
+     <use href="./images/icons.svg#icon-phone"></use>
+   </svg>
+    </div>
+   
         <label for="user-email" class="modal-input-text">Email</label>
+        <div class="modal-form-div">
         <input type="email" class="modal-input" name="user-email" id="user-email"/>
-   </div>
-    <label for="">Comment</label>
-   <textarea class="modal-area" name="comment" id="" placeholder="Text input"></textarea>
-    <button type="submit" class="btn-form">Send</button>
+   <svg class="modal-input-icon" width="12" height="12">
+     <use href="./images/icons.svg#icon-email"></use>
+   </svg>
+    </div>
+    <label class="modal-comment" for="comment">Comment</label>
+   <textarea class="modal-area" name="comment" id="comment" placeholder="Text input"></textarea>
+       <label class="check-option">
+        <input class="check-input" type="checkbox" name="accept"
+        value="accept">
+        <!-- <span class="check__box"></span> -->
+        I accept the terms and conditions of the <span class="privacy-accept">Privacy Policy</span>
+      </label>
+   <button type="submit" class="btn-form">Send</button>
 </form>
 </div>
 </div>
