@@ -586,15 +586,7 @@ margin-bottom: 16px;
     .btn-form :hover, .btn-form :focus {
         background-color: #404BBF;
     }
-.modal-input {
-    width: 100%;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-border-radius: 4px;
-height: 40px;
-margin-bottom: 8px;
-padding-left: 32px;
-outline: transparent;
-}
+
 .modal-input {
     width: 100%;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -722,5 +714,5 @@ span.check-icon {
     align-items: center;
     justify-content: center;
     fill: transparent;
-    margin-bottom: 8px;
+
 }
