@@ -441,7 +441,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #fff;
-margin-bottom: 16px;
+
 }
 .form-email {
     display: flex;
@@ -472,7 +472,6 @@ color: #ffffff;
 align-items: center;
 justify-content: center;
 flex-direction: row;
-gap: 16px;
 border-radius: 4px;
 padding: 8px 24px;
 background-color: #4d5ae5;
@@ -601,7 +600,6 @@ outline: transparent;
     border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
 height: 40px;
-margin-bottom: 8px;
 padding-left: 38px;
 outline: transparent;
 background-color: transparent;
@@ -674,9 +672,7 @@ transform: translateY(-50%);
 
 
 .check-option {
-/* display: flex;
-align-items: center;
-justify-content: center; */
+
     width: 100%;
 font-weight: 400;
 font-size: 12px;
@@ -698,7 +694,6 @@ input[type="checkbox"]:checked + .check-option .check-icon {
 text-decoration: underline;
 text-decoration-skip-ink: none;
 color: #4d5ae5;
-display: block;
 }
 .modal-main {
     margin-bottom: 8px;
