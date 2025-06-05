@@ -432,8 +432,7 @@ list-style: none;
 .footer-form {
 display: flex;
 flex-direction: column;
-gap: 16px;
-    /* margin: 0 auto; */
+
 }
 .form-text {
     font-weight: 500;
@@ -441,13 +440,13 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #fff;
-
+margin-bottom: 16px;
 }
 .form-email {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+
 }
 .input-footer {
     width: 264px;
@@ -461,6 +460,7 @@ line-height: 2;
 letter-spacing: 0.04em;
 padding-left: 16px;
 color: #ffffff;
+margin-right: 24px;
 }
 .input-footer::placeholder {
     color: #ffffff;
