@@ -446,7 +446,7 @@ margin-bottom: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
-
+gap: 24px;
 }
 .input-footer {
     width: 264px;
@@ -460,7 +460,7 @@ line-height: 2;
 letter-spacing: 0.04em;
 padding-left: 16px;
 color: #ffffff;
-margin-right: 24px;
+
 }
 .input-footer::placeholder {
     color: #ffffff;
