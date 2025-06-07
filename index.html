@@ -43,7 +43,7 @@
                 <h1 class="box-title">Effective Solutions
                     for Your Business</h1>
                     <button type="button" 
-                    class="box-btn">Order Service</button>
+                    class="box-btn" data-modal-open>Order Service</button>
         </div>
         </section>
         <section class="section-information">
@@ -414,9 +414,9 @@
         </div>
     </footer>
     <!-- MODAL -->
-<div class="overlay is-open">
+<div class="overlay is-open" data-modal>
 <div class="modal">
-    <button class="btn-close" type="button">
+    <button class="btn-close" type="button" data-modal-close>
         <svg class="btn-close-item" width="8" height="8">
           <use href="./images/icons.svg#icon-close"></use>
         </svg>
@@ -471,5 +471,6 @@
 </form>
 </div>
 </div>
+<script src="./js/modal.js"></script>
 </body>
 </html>
